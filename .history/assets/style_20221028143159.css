@@ -14,9 +14,6 @@ html {
 .clear {
     clear: both;
 }
-.body {
-    position: relative;
-}
 .header {
     height: 60px;
     width: 100%;

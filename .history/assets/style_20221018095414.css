@@ -14,9 +14,6 @@ html {
 .clear {
     clear: both;
 }
-.body {
-    position: relative;
-}
 .header {
     height: 60px;
     width: 100%;
@@ -50,10 +47,6 @@ html {
     top: 50%;
     transform: translateY(-50%);
     text-align: center;
-}
-.header_nav-menu-mobile,
-.header_nav-menu-mobile-btn {
-    display: none;
 }
 .header_nav-item {
     line-height: 60px;
@@ -93,13 +86,12 @@ html {
     margin: 15px 0;
 }
 .slider_btn {
-    display: inline-block;
     text-decoration: none;
     color: #000;
     background-color: rgba(256,256,256, 0.6);
     font-size: 18px;
     border: none;
-    padding: 12px 24px;
+    padding: 20px 24px;
     margin-top: 20px;
 }
 .slider_btn:hover {
@@ -196,6 +188,7 @@ html {
     margin-top: 64px;
     padding: 0 8px;
     opacity: 0.8;
+    flex-wrap: wrap;
 }
 .container_team-item {
     width: 50%;

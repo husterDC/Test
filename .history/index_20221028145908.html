@@ -47,11 +47,11 @@
                     </a>
                 </li>
             </ul>
-            <div class="js-open-menu header_nav-menu-mobile-btn">
+            <div class="header_nav-menu-mobile-btn">
                 <i class="header-nav_icon fa-solid fa-bars"></i>
             </div>
             <ul class="header_nav-menu-mobile">
-                <li class="header_nav-item-mobile">
+                <li class="header-nav-item-mobile">
                     Close
                     <i class="menu-close_icon fa-solid fa-xmark"></i>
                 </li>
@@ -396,21 +396,5 @@
             <a href="" class="footer_copyright-link">w3.css</a>
         </div>
     </div>
-    <script>
-        const OpenMenu = document.querySelector('.js-open-menu')
-        const CloseMenuMoblie = document.querySelectorAll('.header_nav-item-mobile')
-        const MenuMobile = document.querySelector('.header_nav-menu-mobile')
-        function ShowMenu () {
-            MenuMobile.classList.add('open')
-        }
-        function HidenMenu () {
-            MenuMobile.classList.remove('open')
-        }
-        OpenMenu.addEventListener('click', ShowMenu)
-        for (const CloseMenu of CloseMenuMoblie) {
-            CloseMenu.addEventListener('click', HidenMenu)
-        }
-        
-    </script>
 </body>
 </html>

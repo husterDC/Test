@@ -398,7 +398,7 @@
     </div>
     <script>
         const OpenMenu = document.querySelector('.js-open-menu')
-        const CloseMenuMoblie = document.querySelectorAll('.header_nav-item-mobile')
+        const CloseMenu = document.querySelector('.js-close-menu')
         const MenuMobile = document.querySelector('.header_nav-menu-mobile')
         function ShowMenu () {
             MenuMobile.classList.add('open')
@@ -407,10 +407,7 @@
             MenuMobile.classList.remove('open')
         }
         OpenMenu.addEventListener('click', ShowMenu)
-        for (const CloseMenu of CloseMenuMoblie) {
-            CloseMenu.addEventListener('click', HidenMenu)
-        }
-        
+        CloseMenu.addEventListener('click', HidenMenu)
     </script>
 </body>
 </html>

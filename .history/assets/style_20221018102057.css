@@ -14,9 +14,6 @@ html {
 .clear {
     clear: both;
 }
-.body {
-    position: relative;
-}
 .header {
     height: 60px;
     width: 100%;
@@ -51,8 +48,7 @@ html {
     transform: translateY(-50%);
     text-align: center;
 }
-.header_nav-menu-mobile,
-.header_nav-menu-mobile-btn {
+.header_nav-menu-mobile {
     display: none;
 }
 .header_nav-item {

@@ -14,9 +14,6 @@ html {
 .clear {
     clear: both;
 }
-.body {
-    position: relative;
-}
 .header {
     height: 60px;
     width: 100%;
@@ -50,10 +47,6 @@ html {
     top: 50%;
     transform: translateY(-50%);
     text-align: center;
-}
-.header_nav-menu-mobile,
-.header_nav-menu-mobile-btn {
-    display: none;
 }
 .header_nav-item {
     line-height: 60px;
